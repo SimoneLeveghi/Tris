@@ -78,6 +78,10 @@ public class Tris {
         return null;
     }
 
+    public boolean isDraw() {
+        return getGameWinner() == null || isGameOver();
+    }
+
     public boolean isGameOver() {
         boolean gameOver = true;
 
