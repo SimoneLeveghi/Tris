@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc4bfc44-aa61-4684-89f9-5918a7057013" name="Changes" comment="Add class GUI">
+    <list default="true" id="fc4bfc44-aa61-4684-89f9-5918a7057013" name="Changes" comment="Add boilerplate">
       <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tris.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tris.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709535837902</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add boilerplate">
+      <created>1709536593762</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709536593762</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,6 +91,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add class Tris" />
     <MESSAGE value="Add class GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add class GUI" />
+    <MESSAGE value="Add boilerplate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add boilerplate" />
   </component>
 </project>
