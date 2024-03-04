@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc4bfc44-aa61-4684-89f9-5918a7057013" name="Changes" comment="Fix typo in method place()">
+    <list default="true" id="fc4bfc44-aa61-4684-89f9-5918a7057013" name="Changes" comment="Add click logic">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709541440993</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add checks in method place()">
+      <created>1709542021513</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709542021513</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add click logic">
+      <created>1709542508627</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709542508627</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +154,8 @@
     <MESSAGE value="Add method switchPlayer()" />
     <MESSAGE value="Fix typos" />
     <MESSAGE value="Fix typo in method place()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix typo in method place()" />
+    <MESSAGE value="Add checks in method place()" />
+    <MESSAGE value="Add click logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add click logic" />
   </component>
 </project>

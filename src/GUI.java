@@ -51,10 +51,10 @@ public class GUI extends Application {
     private void click(int x, int y) {
         if(this.tris.place(x, y)) {
             if(this.tris.getCurrentPlayer() == Player.PLAYER1) {
-                buttonsGrid[x][y].setText("X");
+                buttonsGrid[x][y].setText("O");
             }
             else {
-                buttonsGrid[x][y].setText("O");
+                buttonsGrid[x][y].setText("X");
             }
         }
     }
