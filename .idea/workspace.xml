@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc4bfc44-aa61-4684-89f9-5918a7057013" name="Changes" comment="" />
+    <list default="true" id="fc4bfc44-aa61-4684-89f9-5918a7057013" name="Changes" comment="Add class GUI">
+      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JavaFXApplication" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2dDHApPhrvf3hk70XyMsv1fpkDx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -28,6 +45,28 @@
       <option name="presentableId" value="Default" />
       <updated>1709535590965</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1709535713008</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709535713008</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add class Tris">
+      <created>1709535743385</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709535743385</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add class GUI">
+      <created>1709535837902</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709535837902</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -40,5 +79,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Add class Tris" />
+    <MESSAGE value="Add class GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add class GUI" />
   </component>
 </project>
