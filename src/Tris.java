@@ -16,7 +16,7 @@ public class Tris {
     }
 
     public boolean place(int i, int j) {
-        if(this.grid[i][j] != 0 || isGameOver()) return false;
+        if(!(i >= 0 && i < 3 && j >= 0 && j < 3) || (this.grid[i][j] != 0 || isGameOver())) return false;
 
         this.grid[i][j] = currentPlayer.getValue();
         switchPlayer();
