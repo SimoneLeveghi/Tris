@@ -6,16 +6,20 @@ public class Tris {
         this.currentPlayer = firstPlayer;
     }
 
-    public boolean piazza(int i, int j) {
-        if(this.grid[i][j] != 0 || isGameOver()) return false;
-
-        this.grid[i][j] = currentPlayer.getValue();
+    private void switchPlayer() {
         if(currentPlayer == Player.PLAYER1) {
             currentPlayer = Player.PLAYER2;
         }
         else {
             currentPlayer = Player.PLAYER1;
         }
+    }
+
+    public boolean piazza(int i, int j) {
+        if(this.grid[i][j] != 0 || isGameOver()) return false;
+
+        this.grid[i][j] = currentPlayer.getValue();
+        switchPlayer();
 
         return true;
     }
