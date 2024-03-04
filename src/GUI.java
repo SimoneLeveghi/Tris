@@ -1,4 +1,6 @@
 import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -33,6 +35,9 @@ public class GUI extends Application {
             for (int j = 0; j < this.buttonsGrid[i].length; ++j) {
                 Button b = new Button();
                 b.setPrefSize(100, 100);
+                int finalI = i;
+                int finalJ = j;
+                b.setOnAction(event -> click(finalI, finalJ));
 
                 grid.add(b, j, i);
                 this.buttonsGrid[i][j] = b;
@@ -43,7 +48,14 @@ public class GUI extends Application {
         this.primaryStage.setScene(s);
     }
 
-    public void click(int x, int y) {
-
+    private void click(int x, int y) {
+        if(this.tris.place(x, y)) {
+            if(this.tris.getCurrentPlayer() == Player.PLAYER1) {
+                buttonsGrid[x][y].setText("X");
+            }
+            else {
+                buttonsGrid[x][y].setText("O");
+            }
+        }
     }
 }
