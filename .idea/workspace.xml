@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc4bfc44-aa61-4684-89f9-5918a7057013" name="Changes" comment="Implement method creaGriglia()" />
+    <list default="true" id="fc4bfc44-aa61-4684-89f9-5918a7057013" name="Changes" comment="Add boilerplate">
+      <change afterPath="$PROJECT_DIR$/src/Simbolo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tris.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tris.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +16,7 @@
       <list>
         <option value="Class" />
         <option value="JavaFXApplication" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -77,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709537236629</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add boilerplate">
+      <created>1709537614007</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709537614007</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,8 +107,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add class Tris" />
     <MESSAGE value="Add class GUI" />
-    <MESSAGE value="Add boilerplate" />
     <MESSAGE value="Implement method creaGriglia()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement method creaGriglia()" />
+    <MESSAGE value="Add boilerplate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add boilerplate" />
   </component>
 </project>
