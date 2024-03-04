@@ -15,7 +15,7 @@ public class Tris {
         }
     }
 
-    public boolean piazza(int i, int j) {
+    public boolean place(int i, int j) {
         if(this.grid[i][j] != 0 || isGameOver()) return false;
 
         this.grid[i][j] = currentPlayer.getValue();
