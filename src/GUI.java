@@ -7,7 +7,7 @@ import javafx.stage.Stage;
 
 public class GUI extends Application {
     private Stage primaryStage;
-    private final Button[][] grid = new Button[3][3];
+    private final Button[][] buttonsGrid = new Button[3][3];
     private final Tris tris = new Tris(Player.PLAYER1);
 
     public static void main(String[] args) {
@@ -17,31 +17,33 @@ public class GUI extends Application {
     @Override
     public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
-        creaGriglia();
+        initializeGrid();
         primaryStage.setTitle("Tris");
 
         primaryStage.show();
     }
 
-    public void creaGriglia() {
-        GridPane griglia = new GridPane();
-        griglia.setAlignment(Pos.CENTER);
-        griglia.setVgap(10);
-        griglia.setHgap(10);
+    public void initializeGrid() {
+        GridPane grid = new GridPane();
+        grid.setAlignment(Pos.CENTER);
+        grid.setVgap(10);
+        grid.setHgap(10);
 
-        for (int i = 0; i < grid.length; ++i) {
-            for (int j = 0; j < grid[i].length; ++j) {
+        for (int i = 0; i < this.buttonsGrid.length; ++i) {
+            for (int j = 0; j < this.buttonsGrid[i].length; ++j) {
                 Button b = new Button();
                 b.setPrefSize(100, 100);
 
-                griglia.add(b, j, i);
-                this.grid[i][j] = b;
+                grid.add(b, j, i);
+                this.buttonsGrid[i][j] = b;
             }
         }
 
-        Scene s = new Scene(griglia, 320, 320);
+        Scene s = new Scene(grid, 320, 320);
         this.primaryStage.setScene(s);
     }
 
+    public void click(int x, int y) {
 
+    }
 }
