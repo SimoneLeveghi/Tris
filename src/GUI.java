@@ -3,20 +3,15 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TitledPane;
-import javafx.scene.layout.Background;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
-import javafx.scene.paint.Paint;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
-import javafx.scene.text.TextAlignment;
 import javafx.stage.Stage;
-
-import java.awt.*;
 
 public class GUI extends Application {
     private Stage primaryStage;
@@ -29,6 +24,7 @@ public class GUI extends Application {
 
     @Override
     public void start(Stage primaryStage) {
+
         this.primaryStage = primaryStage;
         VBox vbox = new VBox();
         StackPane gridBg = new StackPane();
@@ -54,8 +50,6 @@ public class GUI extends Application {
         this.primaryStage.setScene(s);
         this.primaryStage.setMinHeight(500);
         this.primaryStage.setMinWidth(500);
-
-
 
         primaryStage.show();
     }
@@ -98,12 +92,24 @@ public class GUI extends Application {
     }
 
     private void click(int x, int y) {
-        if(this.tris.place(x, y)) {
-            if(this.tris.getCurrentPlayer() == Player.PLAYER1) {
+        if(tris.place(x, y)) {
+            if(tris.getCurrentPlayer() == Player.PLAYER1) {
                 buttonsGrid[x][y].setText("O");
             }
             else {
                 buttonsGrid[x][y].setText("X");
+            }
+        }
+        else {
+            if(tris.isDraw()) {
+
+                VBox vbox = new VBox();
+                HBox buttonsContainer = new HBox();
+
+                vbox.setAlignment(Pos.CENTER);
+
+                /*Scene s = new Scene();
+                this.primaryStage.setScene();*/
             }
         }
     }
